@@ -5471,6 +5471,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11441672, guid: a6efd063479ab594ba7261201f389b90, type: 3}
+      propertyPath: canBeKillOnHead
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6efd063479ab594ba7261201f389b90, type: 3}
 --- !u!4 &547826286 stripped
@@ -10366,6 +10370,10 @@ PrefabInstance:
     - target: {fileID: 427498, guid: a6efd063479ab594ba7261201f389b90, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11441672, guid: a6efd063479ab594ba7261201f389b90, type: 3}
+      propertyPath: canBeKillOnHead
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6efd063479ab594ba7261201f389b90, type: 3}
@@ -17419,6 +17427,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11427476, guid: 6503b35c9d6730b4688224df040bcb21, type: 3}
+      propertyPath: canBeKillOnHead
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6503b35c9d6730b4688224df040bcb21, type: 3}
 --- !u!4 &1485582971 stripped
@@ -19826,6 +19838,10 @@ PrefabInstance:
     - target: {fileID: 427498, guid: a6efd063479ab594ba7261201f389b90, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11441672, guid: a6efd063479ab594ba7261201f389b90, type: 3}
+      propertyPath: canBeKillOnHead
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11496138, guid: a6efd063479ab594ba7261201f389b90, type: 3}
       propertyPath: ignoreCheckGroundAhead
@@ -23033,6 +23049,10 @@ PrefabInstance:
       propertyPath: ignoreCheckGroundAhead
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11427476, guid: 6503b35c9d6730b4688224df040bcb21, type: 3}
+      propertyPath: canBeKillOnHead
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6503b35c9d6730b4688224df040bcb21, type: 3}
 --- !u!1 &1899426277 stripped
@@ -23260,6 +23280,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 478794, guid: ecaa9b273fbdf3545811f766e0bb00a8, type: 3}
       propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11489830, guid: ecaa9b273fbdf3545811f766e0bb00a8, type: 3}
+      propertyPath: canBeKillOnHead
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
