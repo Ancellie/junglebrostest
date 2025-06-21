@@ -16,7 +16,7 @@ public class MainMenu_StartMenu : MonoBehaviour
     {
         soundManager = SoundManager.Instance;
         setSound(PlayerPrefs.GetInt("soundOn", 1) == 1);
-        AudioListener.volume = 0;
+        AudioListener.volume = 1;
     }
 
 
@@ -31,18 +31,22 @@ public class MainMenu_StartMenu : MonoBehaviour
     private void setSound(bool sound)
     {
         SoundManager.PlaySfx(soundManager.soundClick);
-        boolSoundOn = !boolSoundOn;
+        boolSoundOn = sound;
 
         if (sound)
         {
             soundImage.sprite = soundOn;
             PlayerPrefs.SetInt("soundOn", 1);
+            AudioListener.volume = 1;
+            
         }
 
         else
         {
             soundImage.sprite = soundOff;
             PlayerPrefs.SetInt("soundOn", 0);
+            AudioListener.volume = 0;
+            
         }
     }
 }
